@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="Item" type="Node3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+
+[node name="Area" type="Area3D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
