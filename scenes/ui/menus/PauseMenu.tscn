@@ -1,0 +1,25 @@
+[gd_scene format=3]
+
+[node name="PauseMenu" type="Control"]
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+
+[node name="Content" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Panel/Content"]
+layout_mode = 2
+text = "Пауза"
+
+[node name="ResumeButton" type="Button" parent="Panel/Content"]
+layout_mode = 2
+text = "Продолжить"
+
+[node name="SettingsButton" type="Button" parent="Panel/Content"]
+layout_mode = 2
+text = "Настройки"
+
+[node name="ExitButton" type="Button" parent="Panel/Content"]
+layout_mode = 2
+text = "Выйти в меню"
