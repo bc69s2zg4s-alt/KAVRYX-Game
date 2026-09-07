@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[node name="Effect" type="Node3D"]
+
+[node name="Particles" type="GPUParticles3D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
