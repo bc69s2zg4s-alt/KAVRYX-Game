@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="HUD" type="Control"]
+
+[node name="Health" type="ProgressBar" parent="."]
+layout_mode = 0
+value = 100.0
+
+[node name="Crosshair" type="Label" parent="."]
+layout_mode = 0
+text = "+"
