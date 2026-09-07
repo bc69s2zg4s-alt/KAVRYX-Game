@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[node name="Dialog" type="Control"]
+
+[node name="Panel" type="Panel" parent="."]
+
+[node name="Text" type="Label" parent="Panel"]
+layout_mode = 0
+text = ""
+
+[node name="ContinueButton" type="Button" parent="Panel"]
+layout_mode = 0
+text = "Продолжить"
