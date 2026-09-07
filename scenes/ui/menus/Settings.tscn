@@ -1,0 +1,39 @@
+[gd_scene format=3]
+
+[node name="Settings" type="Control"]
+
+[node name="Content" type="VBoxContainer" parent="."]
+layout_mode = 0
+
+[node name="Title" type="Label" parent="Content"]
+layout_mode = 2
+text = "Настройки"
+
+[node name="MasterVolume" type="HSlider" parent="Content"]
+layout_mode = 2
+min_value = 0.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="MusicVolume" type="HSlider" parent="Content"]
+layout_mode = 2
+min_value = 0.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="SFXVolume" type="HSlider" parent="Content"]
+layout_mode = 2
+min_value = 0.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="Fullscreen" type="CheckButton" parent="Content"]
+layout_mode = 2
+text = "Полноэкранный режим"
+
+[node name="BackButton" type="Button" parent="Content"]
+layout_mode = 2
+text = "Назад"
