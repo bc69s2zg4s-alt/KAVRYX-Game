@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="Weapon" type="Node3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+
+[node name="Muzzle" type="Marker3D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Effects" type="Node3D" parent="."]
