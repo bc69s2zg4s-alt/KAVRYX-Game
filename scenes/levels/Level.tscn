@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[node name="Level" type="Node3D"]
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+
+[node name="Light" type="DirectionalLight3D" parent="."]
+
+[node name="Geometry" type="Node3D" parent="."]
+
+[node name="Objects" type="Node3D" parent="."]
+
+[node name="SpawnPoints" type="Node3D" parent="."]
